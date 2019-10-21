@@ -1,0 +1,53 @@
+[127.984762192] 2019-10-18 16:54:27,859 - INFO - launcher: Starting sanity checks
+[129.984378815] 2019-10-18 16:54:27,861 - INFO - launcher: Checking for Python 3.5+
+[133.983850479] 2019-10-18 16:54:27,865 - INFO - launcher: Checking console encoding
+[133.983850479] 2019-10-18 16:54:27,865 - INFO - launcher: Setting console encoding to UTF-8
+[134.984016418] 2019-10-18 16:54:27,866 - INFO - launcher: Ensuring we're in the right environment
+[137.984037399] 2019-10-18 16:54:27,869 - INFO - launcher: Adding local bins/ folder to path
+[1585.590839386] 2019-10-18 16:54:29,317 - INFO - launcher: Required checks passed.
+[1585.590839386] 2019-10-18 16:54:29,317 - INFO - launcher: Optional checks passed.
+[1586.590766907] 2019-10-18 16:54:29,318 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.5962479114532471] 2019-10-18 16:54:31,327 - WARNING - musicbot.config | In config.py::MainThread(16648), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.5972485542297363] 2019-10-18 16:54:31,328 - INFO - musicbot.config | In config.py::MainThread(16648), line 131 in run_checks: Using i18n: config/i18n/en.json
+[3.5972485542297363] 2019-10-18 16:54:31,328 - WARNING - musicbot.config | In config.py::MainThread(16648), line 309 in find_autoplaylist: No autoplaylist file found.
+[3.5972485542297363] 2019-10-18 16:54:31,328 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 226 in _setup_logging: Set logging level to INFO
+[3.6002476215362549] 2019-10-18 16:54:31,331 - DEBUG - musicbot.json | In json.py::MainThread(16648), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.6912455558776855] 2019-10-18 16:54:31,422 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 91 in __init__: Starting MusicBot 
+[3.6912455558776855] 2019-10-18 16:54:31,422 - WARNING - musicbot.bot | In bot.py::MainThread(16648), line 94 in __init__: Autoplaylist is empty, disabling.
+[4.3663666248321533] 2019-10-18 16:54:32,097 - DEBUG - musicbot.spotify | In spotify.py::MainThread(16648), line 74 in get_token: Created a new access token: {'access_token': 'BQD6VZezvZ0nhMDADeSh1qZvPV2Z22sbfNqH1Wfx6qN2PCXZ47esElqXs8NCtOj3d01s4nRydcvS0VWewME', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1571385272}
+[4.3673665523529053] 2019-10-18 16:54:32,098 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 122 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[8.1777772903442383] 2019-10-18 16:54:35,909 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 949 in on_ready: Connection established, ready to go.
+[8.1777772903442383] 2019-10-18 16:54:35,909 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 340 in _cache_app_info: Caching app info
+[8.5227673053741455] 2019-10-18 16:54:36,254 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 787 in _scheck_server_permissions: Checking server permissions
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 795 in _scheck_configs: Validating config
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.config | In config.py::MainThread(16648), line 228 in async_validate: Validating options...
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.config | In config.py::MainThread(16648), line 242 in async_validate: Acquired owner id via API
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.bot | In bot.py::MainThread(16648), line 798 in _scheck_configs: Validating permissions config
+[8.5277667045593262] 2019-10-18 16:54:36,259 - DEBUG - musicbot.permissions | In permissions.py::MainThread(16648), line 94 in async_validate: Validating permissions...
+[8.5287673473358154] 2019-10-18 16:54:36,260 - DEBUG - musicbot.permissions | In permissions.py::MainThread(16648), line 98 in async_validate: Fixing automatic owner group
+[8.5287673473358154] 2019-10-18 16:54:36,260 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 966 in on_ready: Connected: 610123487050203156/BeatMaker#1029
+[8.5297667980194092] 2019-10-18 16:54:36,261 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 974 in on_ready: Owner:     381256973468958720/UnknownPrison#1840
+
+[8.5297667980194092] 2019-10-18 16:54:36,261 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 977 in on_ready: Guild List:
+[8.5307664871215820] 2019-10-18 16:54:36,262 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 981 in on_ready:  - RustalMainia
+[8.5307664871215820] 2019-10-18 16:54:36,262 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 981 in on_ready:  - Coding Server For Stream
+[8.5307664871215820] 2019-10-18 16:54:36,262 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 981 in on_ready:  - WavyESC
+[8.5307664871215820] 2019-10-18 16:54:36,262 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 981 in on_ready:  - The Master Alphas Cave
+[8.5317664146423340] 2019-10-18 16:54:36,263 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 981 in on_ready:  - Cheap Rust Accounts
+[8.5317664146423340] 2019-10-18 16:54:36,263 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 1037 in on_ready: Not bound to any text channels
+[8.5317664146423340] 2019-10-18 16:54:36,263 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 1063 in on_ready: Not autojoining any voice channels
+[8.5327665805816650] 2019-10-18 16:54:36,264 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 270 in _join_startup_channels: Found owner in "General"
+[8.5327665805816650] 2019-10-18 16:54:36,264 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 279 in _join_startup_channels: Attempting to join Coding Server For Stream/General
+[15.1770269870758057] 2019-10-18 16:54:42,908 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $clean
+[22.0647881031036377] 2019-10-18 16:54:49,796 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $p https://www.youtube.com/watch?v=DxY6ucBKDhU&list=PLLjcyoJIG9f7mm21TS-eJbc97_z25qY0t&index=2&t=0s
+[52.4076924324035645] 2019-10-18 16:55:20,139 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $np
+[60.4566867351531982] 2019-10-18 16:55:28,188 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $summon
+[60.4576723575592041] 2019-10-18 16:55:28,189 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 1926 in cmd_summon: Joining Coding Server For Stream/General
+[63.5762751102447510] 2019-10-18 16:55:31,307 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $clean
+[71.2464292049407959] 2019-10-18 16:55:38,977 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $disconnect
+[104.5135707855224609] 2019-10-18 16:56:12,245 - INFO - musicbot.bot | In bot.py::MainThread(16648), line 2680 in on_message: 381256973468958720/UnknownPrison#1840: $p lalala bassboosted
